@@ -31,10 +31,3 @@ source-roots = ["src"]
 
 [tool.pylint.format]
 max-line-length = 100
-
-[tool.pylint.design]
-# Study mirrors the OSDR study JSON schema field-for-field (21 attributes);
-# it is a flat data record, not a behavioral class, so the default
-# max-attributes=7 heuristic doesn't apply. Raised to fit exactly, matching
-# the existing max-line-length customization above.
-max-attributes = 21
