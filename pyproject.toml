@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "osdr-explorer"
+version = "1.0.0"
+description = "Snapshot + static explorer for NASA OSDR space-biology studies."
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.27", "jinja2>=3.1"]
+
+[project.optional-dependencies]
+dev = ["pyright", "pylint", "ruff", "pytest"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.pyright]
+include = ["src", "tests"]
+pythonVersion = "3.12"
+typeCheckingMode = "standard"
+
+[tool.pylint.main]
+py-version = "3.12"
+source-roots = ["src"]
+
+[tool.pylint.format]
+max-line-length = 100
