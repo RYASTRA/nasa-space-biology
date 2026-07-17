@@ -21,6 +21,7 @@ target-version = "py312"
 
 [tool.pyright]
 include = ["src", "tests"]
+extraPaths = ["src"]
 pythonVersion = "3.12"
 typeCheckingMode = "standard"
 
