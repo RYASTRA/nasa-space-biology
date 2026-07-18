@@ -1,0 +1,13 @@
+# New & updated OSDR studies — week of {{ day }}
+{% if new %}
+## New ({{ new | length }})
+{% for s in new %}
+- [{{ s.identity.accession }}]({{ base_url }}/study/{{ s.identity.accession }}.html) — {{ s.overview.title }}
+{% endfor %}
+{% endif %}
+{% if updated %}
+## Updated ({{ updated | length }})
+{% for s in updated %}
+- [{{ s.identity.accession }}]({{ base_url }}/study/{{ s.identity.accession }}.html) — {{ s.overview.title }}
+{% endfor %}
+{% endif %}
