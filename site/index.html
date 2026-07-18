@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSDR Space-Biology Studies — findable</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div>
+      <h1>OSDR space-biology studies</h1>
+      <p class="tagline">Browse 574 NASA Open Science Data Repository studies by organism, assay, factor &amp; mission.</p>
+    </div>
+    <a class="home" href="https://osdr.nasa.gov/bio/repo/">Browse on OSDR ↗</a>
+  </header>
+
+  <div class="toolbar">
+    <input id="search" type="search" placeholder="Search titles &amp; descriptions…" autocomplete="off">
+    <div class="toolbar-right">
+      <span id="count" class="count"></span>
+      <label class="sort">Sort
+        <select id="sort">
+          <option value="newest">Newest</option>
+          <option value="oldest">Oldest</option>
+          <option value="accession">Accession</option>
+          <option value="relevance">Relevance</option>
+        </select>
+      </label>
+    </div>
+  </div>
+
+  <button id="facet-toggle" class="facet-toggle" aria-expanded="false">Filters</button>
+  <div class="layout">
+    <aside id="facets" class="facets" aria-label="Filters">
+      <button id="clear" class="clear" hidden>Clear all filters</button>
+    </aside>
+    <main id="results" class="results" aria-live="polite"></main>
+  </div>
+
+  <script src="assets/minisearch.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

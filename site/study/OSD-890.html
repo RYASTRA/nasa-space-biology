@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OSD-890 · Planetary Protection Low Biomass Nanopore Pilot Study</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="study">
+  <header class="site-header">
+    <a class="home" href="../index.html">← All studies</a>
+  </header>
+  <main class="study-main">
+    <p class="accession">OSD-890 · GLDS-767 · released 2026-01-07</p>
+    <h1>Planetary Protection Low Biomass Nanopore Pilot Study</h1>
+    <img class="thumb" src="https://osdr.nasa.gov/geode-py/ws/studies/OSD-890/image" alt="" loading="lazy">
+<p class="desc">Sequencing optimization experiments using different Oxford Nanopore Technology library preparation methods and input DNA values to determine best method for low-biomass sequencing. This pilot study serves as a technical assessment of wet and dry lab methods for processing and analysis of future NASA cleanroom samples. Microbial standards of known composition were used as input DNA. Data from 4 experiments are provided. The NBD (Native Barcode Kit) experiment utilized the Nanopore Rapid PCR Barcoding Kit 24 V14 and tested nanogram-level input amounts (5ng and 11ng). The three Rapid experiments utilized the Nanopore Rapid PCR Barcoding Kit 24 V14 and tested different input amounts and spike-ins. Rapid1 tested low input amounts (100pg and 500pg), Rapid2 tested ultra-low input amounts (1pg and 10pg), and Rapid3 tested ultra-low input amounts (5pg and 10pg) with and without lambda spike-in. Different data processing pipelines were tested with each set of experimental data as described below. Data from each of the 3 Rapid experiments were processed using 4 different tool combinations for read- and assembly-based processing protocols. The following shows the 4 different combinations tested for the read-based processing approach: Tool combination number, tool used to removed contaminants (blank reads), tool used to remove human reads, tool used for taxonomy assignments, output file suffixes used Test1, Minimap2, Kraken2, Kaiju, “_kraken2-kaiju”, Test2, Minimap2, Kraken2, Kraken2, “_kraken2-kraken2”, Test3, Chopper, Chopper, Kaiju, “_chopper-kaiju”, Test4, Chopper, Chopper, Kraken2, “_chopper-kraken2”. The following shows the 4 different combinations tested for the assembly-based processing approach: Tool combination number, tool used to removed contaminants (blank reads), tool used to remove human reads, tool used for assembly polishing, output file suffixes used: Test1, Minimap2, Kraken2, Medaka, “_kraken2-medaka”, Test2, Minimap2, Kraken2, Minimap2+racon, “_kraken2-racon”, Test3, Chopper, Chopper, Medaka, “_chopper- medaka”, Test4, Chopper, Chopper, Minimap2+racon, “_chopper- racon”. Data from the NBD experiment was processed using 16 different approaches to test different tool combinations, different order of contaminant and human read removal steps, and to test differences in assembling blank reads or not before removing them. Each of the 4 different tool combinations for read- and assembly-based processing protocols described for the Rapid experiments were tested with the NBD data using either unassembled or assembled blank reads, making up 8 different approaches. Those 8 approaches were tested with removing blank reads first followed by human read removal or removing human reads first followed by blank read removal, totaling 16 approaches. The 16 different approaches and respective output file prefixes are detailed in the README.txt file associated with the NBD assay table.</p>
+    <div class="deep-links">
+      <a class="btn" href="https://osdr.nasa.gov/bio/repo/data/studies/OSD-890">View on OSDR ↗</a>
+      <a class="btn" href="https://osdr.nasa.gov/osdr/data/osd/meta/890">Metadata API ↗</a>
+      <a class="btn" href="https://osdr.nasa.gov/osdr/data/osd/files/890">Data files API ↗</a>
+    </div>
+
+    <dl class="facts">
+<dt>Organism</dt><dd><span class="chip">Not Applicable</span><span class="chip">Microbiota</span></dd><dt>Assay</dt><dd><span class="chip">long read low-biomass DNA Sequencing</span><span class="chip">long read low-biomass DNA Sequencing</span><span class="chip">long read low-biomass DNA Sequencing</span><span class="chip">long read low-biomass DNA Sequencing</span></dd><dt>Factor</dt><dd><span class="chip">Organism Distribution</span><span class="chip">Input DNA Mass</span><span class="chip">Lambda Spike-In</span></dd><dt>Material</dt><dd><span class="chip">DNA</span><span class="chip">Not Applicable</span></dd><dt>People</dt><dd>Lisa Guan</dd><dt>Center</dt><dd>Jet Propulsion Laboratory (JPL)</dd>    </dl>
+  </main>
+</body>
+</html>
