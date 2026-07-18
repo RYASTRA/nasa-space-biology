@@ -2,9 +2,20 @@
 
 import re
 from datetime import datetime, timezone
+from typing import Any
 
 from osdr_explorer import OSDR_HOST
-from osdr_explorer.models import StudyLinks
+from osdr_explorer.models import (
+    Assay,
+    Attribution,
+    Factors,
+    Identity,
+    Mission,
+    Overview,
+    Study,
+    StudyLinks,
+    Subject,
+)
 
 _SPLIT_RE = re.compile(r"\s{2,}|,")
 
@@ -87,3 +98,62 @@ def normalize_people(raw: object) -> list[str]:
         names = [_person_name(person) for person in raw]
         return [name for name in names if name]
     return []
+
+
+class NormalizeError(Exception):
+    """Raised when an OSDR record cannot be normalized (e.g. missing accession)."""
+
+
+def _mission_name(raw: object) -> list[str]:
+    """Extract a single-element mission-name list from the Mission object."""
+    if isinstance(raw, dict):
+        name = str(raw.get("Name") or "").strip()
+        return [name] if name else []
+    return []
+
+
+def normalize_record(raw: dict[str, Any]) -> Study:
+    """Convert one raw OSDR search record into a typed :class:`Study`.
+
+    Raises :class:`NormalizeError` if the record has no usable ``Accession``.
+    """
+    accession = str(raw.get("Accession") or "").strip()
+    if not accession or "-" not in accession:
+        raise NormalizeError(f"record has no usable Accession: {raw.get('Accession')!r}")
+    return Study(
+        identity=Identity(
+            accession=accession,
+            osd_num=osd_num_from_accession(accession),
+            identifiers=str(raw.get("Identifiers") or "").strip(),
+            links=build_links(accession),
+        ),
+        overview=Overview(
+            title=str(raw.get("Study Title") or "").strip(),
+            description=str(raw.get("Study Description") or "").strip(),
+            release_date=parse_epoch_date(raw.get("Study Public Release Date")),
+            thumbnail=normalize_thumbnail(raw.get("thumbnail")),
+        ),
+        subject=Subject(
+            organisms=split_multi(raw.get("organism")),
+            material_types=split_multi(raw.get("Material Type")),
+        ),
+        assay=Assay(
+            types=split_multi(raw.get("Study Assay Technology Type")),
+            measurement_types=split_multi(raw.get("Study Assay Measurement Type")),
+            platforms=split_multi(raw.get("Study Assay Technology Platform")),
+        ),
+        factors=Factors(
+            names=split_multi(raw.get("Study Factor Name")),
+            types=split_multi(raw.get("Study Factor Type")),
+        ),
+        mission=Mission(
+            names=_mission_name(raw.get("Mission")),
+            flight_programs=split_multi(raw.get("Flight Program")),
+            space_programs=split_multi(raw.get("Space Program")),
+        ),
+        attribution=Attribution(
+            managing_center=str(raw.get("Managing NASA Center") or "").strip(),
+            people=normalize_people(raw.get("Study Person")),
+            publication_title=str(raw.get("Study Publication Title") or "").strip(),
+        ),
+    )
