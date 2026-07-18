@@ -1,0 +1,1682 @@
+{
+  "organisms": [
+    {
+      "value": "Mus musculus",
+      "count": 222
+    },
+    {
+      "value": "Homo sapiens",
+      "count": 108
+    },
+    {
+      "value": "Arabidopsis thaliana",
+      "count": 61
+    },
+    {
+      "value": "Microbiota",
+      "count": 46
+    },
+    {
+      "value": "Rattus norvegicus",
+      "count": 20
+    },
+    {
+      "value": "Drosophila melanogaster",
+      "count": 14
+    },
+    {
+      "value": "Not Applicable",
+      "count": 12
+    },
+    {
+      "value": "Caenorhabditis elegans",
+      "count": 9
+    },
+    {
+      "value": "Bacillus subtilis",
+      "count": 7
+    },
+    {
+      "value": "Escherichia coli",
+      "count": 6
+    },
+    {
+      "value": "Saccharomyces cerevisiae",
+      "count": 5
+    },
+    {
+      "value": "Staphylococcus aureus",
+      "count": 5
+    },
+    {
+      "value": "Danio rerio",
+      "count": 4
+    },
+    {
+      "value": "Staphylococcus saprophyticus",
+      "count": 4
+    },
+    {
+      "value": "cellular organisms",
+      "count": 4
+    },
+    {
+      "value": "Aspergillus fumigatus",
+      "count": 3
+    },
+    {
+      "value": "Aspergillus niger",
+      "count": 3
+    },
+    {
+      "value": "Bacillus pumilus",
+      "count": 3
+    },
+    {
+      "value": "Euprymna scolopes",
+      "count": 3
+    },
+    {
+      "value": "Fusarium oxysporum",
+      "count": 3
+    },
+    {
+      "value": "Pseudomonas aeruginosa",
+      "count": 3
+    },
+    {
+      "value": "Acinetobacter pittii",
+      "count": 2
+    },
+    {
+      "value": "Aspergillus unguis",
+      "count": 2
+    },
+    {
+      "value": "Aureobasidium pullulans",
+      "count": 2
+    },
+    {
+      "value": "Bacillus horneckiae",
+      "count": 2
+    },
+    {
+      "value": "Burkholderia contaminans",
+      "count": 2
+    },
+    {
+      "value": "Cladosporium cladosporioides",
+      "count": 2
+    },
+    {
+      "value": "Cladosporium sphaerospermum",
+      "count": 2
+    },
+    {
+      "value": "Enterobacter bugandensis",
+      "count": 2
+    },
+    {
+      "value": "Klebsiella quasipneumoniae",
+      "count": 2
+    },
+    {
+      "value": "Micrococcus luteus",
+      "count": 2
+    },
+    {
+      "value": "Mycobacterium marinum",
+      "count": 2
+    },
+    {
+      "value": "Oryzias latipes",
+      "count": 2
+    },
+    {
+      "value": "Pantoea brenneri",
+      "count": 2
+    },
+    {
+      "value": "Pseudomonas fulva",
+      "count": 2
+    },
+    {
+      "value": "Rhodospirillum rubrum",
+      "count": 2
+    },
+    {
+      "value": "Rhodotorula mucilaginosa",
+      "count": 2
+    },
+    {
+      "value": "Sphingomonas sanguinis",
+      "count": 2
+    },
+    {
+      "value": "Staphylococcus epidermidis",
+      "count": 2
+    },
+    {
+      "value": "Acinetobacter radioresistens",
+      "count": 1
+    },
+    {
+      "value": "Acremonium citrinum",
+      "count": 1
+    },
+    {
+      "value": "Adineta vaga",
+      "count": 1
+    },
+    {
+      "value": "Agrobacterium genomosp. 3",
+      "count": 1
+    },
+    {
+      "value": "Alkalihalobacillus clausii",
+      "count": 1
+    },
+    {
+      "value": "Alkalihalobacillus gibsonii",
+      "count": 1
+    },
+    {
+      "value": "Alternaria angustiovoidea",
+      "count": 1
+    },
+    {
+      "value": "Aranicola proteolyticus",
+      "count": 1
+    },
+    {
+      "value": "Aspergillus calidoustus",
+      "count": 1
+    },
+    {
+      "value": "Aspergillus costaricaensis",
+      "count": 1
+    },
+    {
+      "value": "Aspergillus nidulans",
+      "count": 1
+    },
+    {
+      "value": "Aspergillus pseudoglaucus",
+      "count": 1
+    },
+    {
+      "value": "Aspergillus quadricinctus",
+      "count": 1
+    },
+    {
+      "value": "Aspergillus terreus",
+      "count": 1
+    },
+    {
+      "value": "Aureobasidium lini",
+      "count": 1
+    },
+    {
+      "value": "Aureobasidium melanogenum",
+      "count": 1
+    },
+    {
+      "value": "Bacillus",
+      "count": 1
+    },
+    {
+      "value": "Bacillus altitudinis",
+      "count": 1
+    },
+    {
+      "value": "Bacillus amyloliquefaciens",
+      "count": 1
+    },
+    {
+      "value": "Bacillus atrophaeus",
+      "count": 1
+    },
+    {
+      "value": "Bacillus cereus thuringiensis",
+      "count": 1
+    },
+    {
+      "value": "Bacillus firmus",
+      "count": 1
+    },
+    {
+      "value": "Bacillus glycinifermentans",
+      "count": 1
+    },
+    {
+      "value": "Bacillus haynesii",
+      "count": 1
+    },
+    {
+      "value": "Bacillus licheniformis",
+      "count": 1
+    },
+    {
+      "value": "Bacillus nealsonii",
+      "count": 1
+    },
+    {
+      "value": "Bacillus paralicheniformis",
+      "count": 1
+    },
+    {
+      "value": "Bacillus safensis",
+      "count": 1
+    },
+    {
+      "value": "Barbatosphaeria neglecta",
+      "count": 1
+    },
+    {
+      "value": "Beauveria bassiana",
+      "count": 1
+    },
+    {
+      "value": "Botryosphaeria agaves",
+      "count": 1
+    },
+    {
+      "value": "Brachypodium distachyon",
+      "count": 1
+    },
+    {
+      "value": "Brassica rapa",
+      "count": 1
+    },
+    {
+      "value": "Brevibacillus parabrevis",
+      "count": 1
+    },
+    {
+      "value": "Brevibacterium luteolum",
+      "count": 1
+    },
+    {
+      "value": "Burkholderia cepacia",
+      "count": 1
+    },
+    {
+      "value": "Candida albicans",
+      "count": 1
+    },
+    {
+      "value": "Ceratopteris richardii",
+      "count": 1
+    },
+    {
+      "value": "Chlamydomonas reinhardtii",
+      "count": 1
+    },
+    {
+      "value": "Cladosporium austrohemisphaericum",
+      "count": 1
+    },
+    {
+      "value": "Cladosporium colombiae",
+      "count": 1
+    },
+    {
+      "value": "Cladosporium endophytica",
+      "count": 1
+    },
+    {
+      "value": "Cystobasidium benthicum",
+      "count": 1
+    },
+    {
+      "value": "Cytobacillus oceanisediminis",
+      "count": 1
+    },
+    {
+      "value": "Daphnia magna",
+      "count": 1
+    },
+    {
+      "value": "Enterobacter",
+      "count": 1
+    },
+    {
+      "value": "Enterobacter cloacae",
+      "count": 1
+    },
+    {
+      "value": "Enterobacteria phage lambda",
+      "count": 1
+    },
+    {
+      "value": "Eruca vesicaria",
+      "count": 1
+    },
+    {
+      "value": "Euglena gracilis",
+      "count": 1
+    },
+    {
+      "value": "Exophiala oligosperma",
+      "count": 1
+    },
+    {
+      "value": "Fusarium annulatum",
+      "count": 1
+    },
+    {
+      "value": "Fusarium nygamai",
+      "count": 1
+    },
+    {
+      "value": "Fusarium solani",
+      "count": 1
+    },
+    {
+      "value": "Fusarium sporotrichioides",
+      "count": 1
+    },
+    {
+      "value": "Fusarium veterinarium",
+      "count": 1
+    },
+    {
+      "value": "Gamszarea kalimantanensis",
+      "count": 1
+    },
+    {
+      "value": "Ganoderma meredithae",
+      "count": 1
+    },
+    {
+      "value": "Helix lucorum",
+      "count": 1
+    },
+    {
+      "value": "Kalamiella piersonii",
+      "count": 1
+    },
+    {
+      "value": "Klebsiella",
+      "count": 1
+    },
+    {
+      "value": "Klebsiella aerogenes",
+      "count": 1
+    },
+    {
+      "value": "Klebsiella pneumoniae",
+      "count": 1
+    },
+    {
+      "value": "Klebsiella quasipneumoniae subsp. similipneumoniae",
+      "count": 1
+    },
+    {
+      "value": "Kocuria indica",
+      "count": 1
+    },
+    {
+      "value": "Kocuria palustris",
+      "count": 1
+    },
+    {
+      "value": "Lactobacillus acidophilus",
+      "count": 1
+    },
+    {
+      "value": "Leptopilina boulardi",
+      "count": 1
+    },
+    {
+      "value": "Leptopilina heterotoma",
+      "count": 1
+    },
+    {
+      "value": "Lolium multiflorum",
+      "count": 1
+    },
+    {
+      "value": "Methylobacterium organophilum",
+      "count": 1
+    },
+    {
+      "value": "Methylobacterium sp.",
+      "count": 1
+    },
+    {
+      "value": "Methylorubrum rhodesianum",
+      "count": 1
+    },
+    {
+      "value": "Naganishia adeliensis",
+      "count": 1
+    },
+    {
+      "value": "Naganishia albida",
+      "count": 1
+    },
+    {
+      "value": "Naganishia sp.",
+      "count": 1
+    },
+    {
+      "value": "Neocatenulostroma microsporum",
+      "count": 1
+    },
+    {
+      "value": "Neophaeococcomyces aloes",
+      "count": 1
+    },
+    {
+      "value": "Oceanobacillus caeni",
+      "count": 1
+    },
+    {
+      "value": "Paenibacillus polymyxa",
+      "count": 1
+    },
+    {
+      "value": "Pantoea agglomerans",
+      "count": 1
+    },
+    {
+      "value": "Pantoea conspicua",
+      "count": 1
+    },
+    {
+      "value": "Papiliotrema laurentii",
+      "count": 1
+    },
+    {
+      "value": "Paraburkholderia phymatum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium brevicompactum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium camemberti",
+      "count": 1
+    },
+    {
+      "value": "Penicillium caseifulvum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium chrysogenum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium citrinum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium corylophilum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium decumbens",
+      "count": 1
+    },
+    {
+      "value": "Penicillium dipodomyicola",
+      "count": 1
+    },
+    {
+      "value": "Penicillium fuscoglaucum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium griseoroseum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium palitans",
+      "count": 1
+    },
+    {
+      "value": "Penicillium polonicum",
+      "count": 1
+    },
+    {
+      "value": "Penicillium rubens",
+      "count": 1
+    },
+    {
+      "value": "Penicillium sumatraense",
+      "count": 1
+    },
+    {
+      "value": "Phaeophleospora eucalypticola",
+      "count": 1
+    },
+    {
+      "value": "Phialocephala fluminis",
+      "count": 1
+    },
+    {
+      "value": "Priestia megaterium",
+      "count": 1
+    },
+    {
+      "value": "Pseudoclavibacter alba",
+      "count": 1
+    },
+    {
+      "value": "Pseudomonas granadensis",
+      "count": 1
+    },
+    {
+      "value": "Pseudopyrenochaeta terrestris",
+      "count": 1
+    },
+    {
+      "value": "Ralstonia insidiosa",
+      "count": 1
+    },
+    {
+      "value": "Ralstonia pickettii",
+      "count": 1
+    },
+    {
+      "value": "Roussoella neopustulans",
+      "count": 1
+    },
+    {
+      "value": "Rubinsicoccus jepli",
+      "count": 1
+    },
+    {
+      "value": "Salmonella enterica",
+      "count": 1
+    },
+    {
+      "value": "Salmonella enterica subsp. enterica serovar Typhimurium",
+      "count": 1
+    },
+    {
+      "value": "Septoriella neoarundinis",
+      "count": 1
+    },
+    {
+      "value": "Serratia liquefaciens",
+      "count": 1
+    },
+    {
+      "value": "Solanum lycopersicum",
+      "count": 1
+    },
+    {
+      "value": "Solibacillus kalamii",
+      "count": 1
+    },
+    {
+      "value": "Sphingobacterium paucimobilis",
+      "count": 1
+    },
+    {
+      "value": "Staphylococcus",
+      "count": 1
+    },
+    {
+      "value": "Staphylococcus auricularis",
+      "count": 1
+    },
+    {
+      "value": "Staphylococcus capitis",
+      "count": 1
+    },
+    {
+      "value": "Staphylococcus caprae",
+      "count": 1
+    },
+    {
+      "value": "Staphylococcus lugdunensis",
+      "count": 1
+    },
+    {
+      "value": "Staphylococcus warneri",
+      "count": 1
+    },
+    {
+      "value": "Streptococcus mutans",
+      "count": 1
+    },
+    {
+      "value": "Talaromyces liani",
+      "count": 1
+    },
+    {
+      "value": "Talaromyces ruber",
+      "count": 1
+    },
+    {
+      "value": "Thermus amyloliquefaciens",
+      "count": 1
+    },
+    {
+      "value": "Trichoderma citrinoviride",
+      "count": 1
+    },
+    {
+      "value": "Trichoderma virens",
+      "count": 1
+    },
+    {
+      "value": "Triticum aestivum",
+      "count": 1
+    },
+    {
+      "value": "Urocitellus parryii",
+      "count": 1
+    },
+    {
+      "value": "Vibrio fischeri",
+      "count": 1
+    },
+    {
+      "value": "Virgibacillus pantothenticus",
+      "count": 1
+    },
+    {
+      "value": "Xylona heveae",
+      "count": 1
+    },
+    {
+      "value": "Zalaria obscura",
+      "count": 1
+    },
+    {
+      "value": "Zinnia",
+      "count": 1
+    },
+    {
+      "value": "fungal sp.",
+      "count": 1
+    }
+  ],
+  "assay_types": [
+    {
+      "value": "RNA Sequencing (RNA-Seq)",
+      "count": 233
+    },
+    {
+      "value": "DNA microarray",
+      "count": 156
+    },
+    {
+      "value": "mass spectrometry",
+      "count": 55
+    },
+    {
+      "value": "nucleotide sequencing",
+      "count": 41
+    },
+    {
+      "value": "single-cell RNA sequencing",
+      "count": 31
+    },
+    {
+      "value": "16S",
+      "count": 29
+    },
+    {
+      "value": "Whole-Genome Shotgun Sequencing",
+      "count": 24
+    },
+    {
+      "value": "miRNA Sequencing",
+      "count": 18
+    },
+    {
+      "value": "Western Blot",
+      "count": 14
+    },
+    {
+      "value": "Whole Genome Bisulfite Sequencing",
+      "count": 14
+    },
+    {
+      "value": "spatial transcriptomics",
+      "count": 11
+    },
+    {
+      "value": "real time PCR",
+      "count": 9
+    },
+    {
+      "value": "ITS",
+      "count": 7
+    },
+    {
+      "value": "Microscopy",
+      "count": 6
+    },
+    {
+      "value": "long read low-biomass DNA Sequencing",
+      "count": 6
+    },
+    {
+      "value": "Micro-Computed Tomography",
+      "count": 5
+    },
+    {
+      "value": "Reduced-Representation Bisulfite Sequencing",
+      "count": 5
+    },
+    {
+      "value": "Whole Transcriptome Bisulfite Sequencing",
+      "count": 5
+    },
+    {
+      "value": "miRNA Microarray",
+      "count": 5
+    },
+    {
+      "value": "Ribo-seq (Ribosome profiling)",
+      "count": 4
+    },
+    {
+      "value": "single-cell ATAC-seq",
+      "count": 4
+    },
+    {
+      "value": "single-cell RNA Sequencing",
+      "count": 4
+    },
+    {
+      "value": "DIP-seq",
+      "count": 3
+    },
+    {
+      "value": "Multiplex",
+      "count": 3
+    },
+    {
+      "value": "microarray",
+      "count": 3
+    },
+    {
+      "value": "16S and ITS",
+      "count": 2
+    },
+    {
+      "value": "Bisulfite sequencing",
+      "count": 2
+    },
+    {
+      "value": "ECLIA",
+      "count": 2
+    },
+    {
+      "value": "ELISA",
+      "count": 2
+    },
+    {
+      "value": "Elevated Plus Maze",
+      "count": 2
+    },
+    {
+      "value": "Histomorphometry",
+      "count": 2
+    },
+    {
+      "value": "Image analysis",
+      "count": 2
+    },
+    {
+      "value": "Novel Object Recognition",
+      "count": 2
+    },
+    {
+      "value": "Ultrasonography",
+      "count": 2
+    },
+    {
+      "value": "Atomic Force Microscopy",
+      "count": 1
+    },
+    {
+      "value": "Bone biomechanical measurement",
+      "count": 1
+    },
+    {
+      "value": "CCS long read DNA Enzymatic Methyl Sequencing",
+      "count": 1
+    },
+    {
+      "value": "ChIC-seq (Chromatin Immunocleavage Sequencing)",
+      "count": 1
+    },
+    {
+      "value": "ChIP-seq",
+      "count": 1
+    },
+    {
+      "value": "Comprehensive Metabolic Panel",
+      "count": 1
+    },
+    {
+      "value": "DIP-Seq",
+      "count": 1
+    },
+    {
+      "value": "DNA Microarray",
+      "count": 1
+    },
+    {
+      "value": "Gait",
+      "count": 1
+    },
+    {
+      "value": "Genome-Wide Association Study",
+      "count": 1
+    },
+    {
+      "value": "Hematology Analyzer",
+      "count": 1
+    },
+    {
+      "value": "Immunostaining",
+      "count": 1
+    },
+    {
+      "value": "Nucleotide Sequencing",
+      "count": 1
+    },
+    {
+      "value": "Open Field",
+      "count": 1
+    },
+    {
+      "value": "Photography",
+      "count": 1
+    },
+    {
+      "value": "RAWM",
+      "count": 1
+    },
+    {
+      "value": "Spectrofluorimetric Assay",
+      "count": 1
+    },
+    {
+      "value": "Three Chamber Social Isolation",
+      "count": 1
+    },
+    {
+      "value": "gel electrophoresis",
+      "count": 1
+    },
+    {
+      "value": "long read DNA Sequencing",
+      "count": 1
+    },
+    {
+      "value": "long read RNA Sequencing",
+      "count": 1
+    },
+    {
+      "value": "protein microarray",
+      "count": 1
+    },
+    {
+      "value": "short read low-biomass DNA Sequencing",
+      "count": 1
+    }
+  ],
+  "factor_types": [
+    {
+      "value": "Space Flight",
+      "count": 324
+    },
+    {
+      "value": "ionizing radiation",
+      "count": 94
+    },
+    {
+      "value": "treatment",
+      "count": 72
+    },
+    {
+      "value": "time",
+      "count": 66
+    },
+    {
+      "value": "Genotype",
+      "count": 47
+    },
+    {
+      "value": "Altered",
+      "count": 46
+    },
+    {
+      "value": "Gravity",
+      "count": 46
+    },
+    {
+      "value": "Weightlessness Simulation",
+      "count": 45
+    },
+    {
+      "value": "age",
+      "count": 40
+    },
+    {
+      "value": "absorbed radiation dose",
+      "count": 34
+    },
+    {
+      "value": "Time of Sample Collection After Treatment",
+      "count": 31
+    },
+    {
+      "value": "Euthanasia Location",
+      "count": 28
+    },
+    {
+      "value": "Hindlimb Suspension",
+      "count": 28
+    },
+    {
+      "value": "Organism Part",
+      "count": 26
+    },
+    {
+      "value": "strain",
+      "count": 26
+    },
+    {
+      "value": "Dissection Condition",
+      "count": 21
+    },
+    {
+      "value": "Sex",
+      "count": 17
+    },
+    {
+      "value": "duration",
+      "count": 17
+    },
+    {
+      "value": "Sample Location",
+      "count": 16
+    },
+    {
+      "value": "Age",
+      "count": 15
+    },
+    {
+      "value": "Tissue",
+      "count": 9
+    },
+    {
+      "value": "Ionizing Radiation",
+      "count": 8
+    },
+    {
+      "value": "dissection",
+      "count": 8
+    },
+    {
+      "value": "Bed Rest",
+      "count": 7
+    },
+    {
+      "value": "genotype",
+      "count": 7
+    },
+    {
+      "value": "tissue",
+      "count": 7
+    },
+    {
+      "value": "organism part",
+      "count": 6
+    },
+    {
+      "value": "Diet",
+      "count": 5
+    },
+    {
+      "value": "Space Mission",
+      "count": 5
+    },
+    {
+      "value": "temperature",
+      "count": 5
+    },
+    {
+      "value": "Hypergravity",
+      "count": 4
+    },
+    {
+      "value": "Radiation Distance",
+      "count": 4
+    },
+    {
+      "value": "dose",
+      "count": 4
+    },
+    {
+      "value": "generation",
+      "count": 4
+    },
+    {
+      "value": "infection",
+      "count": 4
+    },
+    {
+      "value": "particle charge",
+      "count": 4
+    },
+    {
+      "value": "Altered Gravity Simulator",
+      "count": 3
+    },
+    {
+      "value": "Animal",
+      "count": 3
+    },
+    {
+      "value": "Atmospheric Pressure",
+      "count": 3
+    },
+    {
+      "value": "Gravitation",
+      "count": 3
+    },
+    {
+      "value": "Order of Preservation",
+      "count": 3
+    },
+    {
+      "value": "Preservation Method",
+      "count": 3
+    },
+    {
+      "value": "Radiation Ionizing",
+      "count": 3
+    },
+    {
+      "value": "Time of Sample Collection after Treatment",
+      "count": 3
+    },
+    {
+      "value": "Tissue Preservation",
+      "count": 3
+    },
+    {
+      "value": "developmental stage",
+      "count": 3
+    },
+    {
+      "value": "ecotype",
+      "count": 3
+    },
+    {
+      "value": "growth environment",
+      "count": 3
+    },
+    {
+      "value": "relative humidity",
+      "count": 3
+    },
+    {
+      "value": "sex",
+      "count": 3
+    },
+    {
+      "value": "Altitude",
+      "count": 2
+    },
+    {
+      "value": "CO2 Concentration",
+      "count": 2
+    },
+    {
+      "value": "Carcass Preservation",
+      "count": 2
+    },
+    {
+      "value": "Co-culture",
+      "count": 2
+    },
+    {
+      "value": "Collection Date",
+      "count": 2
+    },
+    {
+      "value": "Donor Medical History",
+      "count": 2
+    },
+    {
+      "value": "Euthanasia",
+      "count": 2
+    },
+    {
+      "value": "Generation",
+      "count": 2
+    },
+    {
+      "value": "Growth Medium",
+      "count": 2
+    },
+    {
+      "value": "Growth Time",
+      "count": 2
+    },
+    {
+      "value": "Hindlimb Reloading Duration",
+      "count": 2
+    },
+    {
+      "value": "Intracranial Pressure",
+      "count": 2
+    },
+    {
+      "value": "Radiation",
+      "count": 2
+    },
+    {
+      "value": "Seed Sanitization",
+      "count": 2
+    },
+    {
+      "value": "Tetanus Toxoid",
+      "count": 2
+    },
+    {
+      "value": "freezing",
+      "count": 2
+    },
+    {
+      "value": "light regimen",
+      "count": 2
+    },
+    {
+      "value": "sample location",
+      "count": 2
+    },
+    {
+      "value": "soil environment exposure",
+      "count": 2
+    },
+    {
+      "value": "treatment group",
+      "count": 2
+    },
+    {
+      "value": "vaccine adjuvant",
+      "count": 2
+    },
+    {
+      "value": "Absorbed Radiation Dose",
+      "count": 1
+    },
+    {
+      "value": "Accession",
+      "count": 1
+    },
+    {
+      "value": "Age at Sample Collection",
+      "count": 1
+    },
+    {
+      "value": "Age at sample harvest",
+      "count": 1
+    },
+    {
+      "value": "Antibody",
+      "count": 1
+    },
+    {
+      "value": "Biological",
+      "count": 1
+    },
+    {
+      "value": "Cell Line",
+      "count": 1
+    },
+    {
+      "value": "Coating",
+      "count": 1
+    },
+    {
+      "value": "Cosmic Radiation",
+      "count": 1
+    },
+    {
+      "value": "Culture Media",
+      "count": 1
+    },
+    {
+      "value": "Culture Techniques",
+      "count": 1
+    },
+    {
+      "value": "Disease State",
+      "count": 1
+    },
+    {
+      "value": "Dissection Timeline",
+      "count": 1
+    },
+    {
+      "value": "Distance",
+      "count": 1
+    },
+    {
+      "value": "Dry Immersion",
+      "count": 1
+    },
+    {
+      "value": "ERCC RNA spike-in",
+      "count": 1
+    },
+    {
+      "value": "Ecotype",
+      "count": 1
+    },
+    {
+      "value": "Electromagnetic Fields",
+      "count": 1
+    },
+    {
+      "value": "Exposure Duration",
+      "count": 1
+    },
+    {
+      "value": "Extraterrestrial Environment",
+      "count": 1
+    },
+    {
+      "value": "Food Deprivation",
+      "count": 1
+    },
+    {
+      "value": "Gravity environment at imbibition",
+      "count": 1
+    },
+    {
+      "value": "Group ID",
+      "count": 1
+    },
+    {
+      "value": "Growth Cycle",
+      "count": 1
+    },
+    {
+      "value": "Histone Modification Target",
+      "count": 1
+    },
+    {
+      "value": "Housing",
+      "count": 1
+    },
+    {
+      "value": "Hypergravity Duration",
+      "count": 1
+    },
+    {
+      "value": "Infection",
+      "count": 1
+    },
+    {
+      "value": "Input Cell Count",
+      "count": 1
+    },
+    {
+      "value": "Input DNA Mass",
+      "count": 1
+    },
+    {
+      "value": "Ionizing",
+      "count": 1
+    },
+    {
+      "value": "Lambda Spike-In",
+      "count": 1
+    },
+    {
+      "value": "Light",
+      "count": 1
+    },
+    {
+      "value": "Location",
+      "count": 1
+    },
+    {
+      "value": "Magnetic Field",
+      "count": 1
+    },
+    {
+      "value": "Mechanical",
+      "count": 1
+    },
+    {
+      "value": "Neoplasm",
+      "count": 1
+    },
+    {
+      "value": "Number of Radiation Doses",
+      "count": 1
+    },
+    {
+      "value": "Organism Distribution",
+      "count": 1
+    },
+    {
+      "value": "Partial Weight Bearing",
+      "count": 1
+    },
+    {
+      "value": "Partial Weight-Bearing",
+      "count": 1
+    },
+    {
+      "value": "Preservation",
+      "count": 1
+    },
+    {
+      "value": "Sample Condition",
+      "count": 1
+    },
+    {
+      "value": "Sample Storage",
+      "count": 1
+    },
+    {
+      "value": "Sample Storage Time",
+      "count": 1
+    },
+    {
+      "value": "Sieve Size",
+      "count": 1
+    },
+    {
+      "value": "Smoking",
+      "count": 1
+    },
+    {
+      "value": "Spacecraft",
+      "count": 1
+    },
+    {
+      "value": "Stress",
+      "count": 1
+    },
+    {
+      "value": "Study Subject",
+      "count": 1
+    },
+    {
+      "value": "Time Post-Irradiation",
+      "count": 1
+    },
+    {
+      "value": "Time of Sample Collection After Euthanasia",
+      "count": 1
+    },
+    {
+      "value": "Time of sample collection after treatment",
+      "count": 1
+    },
+    {
+      "value": "Tissue homogenate preservation time at -80C in RLT buffer",
+      "count": 1
+    },
+    {
+      "value": "Tissue segment",
+      "count": 1
+    },
+    {
+      "value": "Total Incubation Time",
+      "count": 1
+    },
+    {
+      "value": "UV Mutagenesis",
+      "count": 1
+    },
+    {
+      "value": "Vendor",
+      "count": 1
+    },
+    {
+      "value": "Water Deprivation",
+      "count": 1
+    },
+    {
+      "value": "Weightlessness",
+      "count": 1
+    },
+    {
+      "value": "Zygosity",
+      "count": 1
+    },
+    {
+      "value": "animal cage",
+      "count": 1
+    },
+    {
+      "value": "antibody",
+      "count": 1
+    },
+    {
+      "value": "cell cycle phase",
+      "count": 1
+    },
+    {
+      "value": "cell line",
+      "count": 1
+    },
+    {
+      "value": "controlled light/dark cycle",
+      "count": 1
+    },
+    {
+      "value": "cultivar",
+      "count": 1
+    },
+    {
+      "value": "diet",
+      "count": 1
+    },
+    {
+      "value": "dissection protocol",
+      "count": 1
+    },
+    {
+      "value": "exposure temperature",
+      "count": 1
+    },
+    {
+      "value": "growth & development",
+      "count": 1
+    },
+    {
+      "value": "intervention design",
+      "count": 1
+    },
+    {
+      "value": "ionizing radiation categorized by source",
+      "count": 1
+    },
+    {
+      "value": "library preparation",
+      "count": 1
+    },
+    {
+      "value": "light",
+      "count": 1
+    },
+    {
+      "value": "micronucleus index",
+      "count": 1
+    },
+    {
+      "value": "oxygen",
+      "count": 1
+    },
+    {
+      "value": "parabola",
+      "count": 1
+    },
+    {
+      "value": "pressure",
+      "count": 1
+    },
+    {
+      "value": "root",
+      "count": 1
+    },
+    {
+      "value": "sample collection protocol",
+      "count": 1
+    },
+    {
+      "value": "timepoint",
+      "count": 1
+    },
+    {
+      "value": "tissue model",
+      "count": 1
+    }
+  ],
+  "flight_programs": [
+    {
+      "value": "International Space Station (ISS)",
+      "count": 234
+    },
+    {
+      "value": "Space Transportation System (STS)",
+      "count": 18
+    },
+    {
+      "value": "Internation Space Station (ISS)",
+      "count": 10
+    },
+    {
+      "value": "ISS",
+      "count": 7
+    },
+    {
+      "value": "Rodent Research (RR)",
+      "count": 5
+    },
+    {
+      "value": "Space Transportation System (Shuttle)",
+      "count": 5
+    },
+    {
+      "value": "NA",
+      "count": 4
+    },
+    {
+      "value": "BION-M1 biosatellite",
+      "count": 3
+    },
+    {
+      "value": "International Space Station",
+      "count": 3
+    },
+    {
+      "value": "ISS National Laboratory",
+      "count": 2
+    },
+    {
+      "value": "NASA Airborne Science Program",
+      "count": 2
+    },
+    {
+      "value": "STS-62",
+      "count": 2
+    },
+    {
+      "value": "Soyuz",
+      "count": 2
+    },
+    {
+      "value": "29th DLR parabolic flight campaign",
+      "count": 1
+    },
+    {
+      "value": "Airbus A300 ZERO-G",
+      "count": 1
+    },
+    {
+      "value": "Airbus A300 ZERO-G (reg. no. F-BUAD)",
+      "count": 1
+    },
+    {
+      "value": "Airbus A310",
+      "count": 1
+    },
+    {
+      "value": "Bion-M1 biosatellite",
+      "count": 1
+    },
+    {
+      "value": "Cosmic Ray Exposure Sequencing Science (CRESS)",
+      "count": 1
+    },
+    {
+      "value": "Foton-M4 satellite and International Space Station (ISS)",
+      "count": 1
+    },
+    {
+      "value": "International Space Staion (ISS)",
+      "count": 1
+    },
+    {
+      "value": "International space station (ISS)",
+      "count": 1
+    },
+    {
+      "value": "JAXA",
+      "count": 1
+    },
+    {
+      "value": "NASA",
+      "count": 1
+    },
+    {
+      "value": "NASA Biological and Physical Sciences Program",
+      "count": 1
+    },
+    {
+      "value": "Not applicable",
+      "count": 1
+    },
+    {
+      "value": "STS",
+      "count": 1
+    },
+    {
+      "value": "STS-131",
+      "count": 1
+    },
+    {
+      "value": "Shuttle Program",
+      "count": 1
+    },
+    {
+      "value": "Space Shuttle",
+      "count": 1
+    },
+    {
+      "value": "Space Transporation System (STS)",
+      "count": 1
+    },
+    {
+      "value": "TEXUS-49 and TEXUS-51",
+      "count": 1
+    },
+    {
+      "value": "Virgin Galactic SpaceShipTwo",
+      "count": 1
+    }
+  ]
+}
