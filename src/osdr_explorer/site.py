@@ -54,6 +54,23 @@ def render_index(env: Environment, meta: dict[str, Any]) -> str:
     return env.get_template("index.html.j2").render(meta=meta)
 
 
+def newest_by_release(studies: list[dict[str, Any]], limit: int = 50) -> list[dict[str, Any]]:
+    """Return studies that have a release_date, newest first, capped at limit."""
+    dated = [s for s in studies if s["overview"]["release_date"]]
+    dated.sort(
+        key=lambda s: (s["overview"]["release_date"], s["identity"]["osd_num"]), reverse=True
+    )
+    return dated[:limit]
+
+
+def render_feed(env: Environment, studies: list[dict[str, Any]], base_url: str) -> str:
+    """Render an Atom feed of the newest studies by release date."""
+    feed = newest_by_release(studies)
+    updated = feed[0]["overview"]["release_date"] if feed else "1970-01-01"
+    template = env.get_template("feed.xml.j2")
+    return template.render(studies=feed, base_url=base_url.rstrip("/"), updated=updated)
+
+
 def build_site(
     *,
     data_dir: Path,
@@ -74,3 +91,4 @@ def build_site(
         accession = study["identity"]["accession"]
         _write(site_dir / "study" / f"{accession}.html", render_study(env, study))
     _write(site_dir / "index.html", render_index(env, meta))
+    _write(site_dir / "feed.xml", render_feed(env, studies, base_url))

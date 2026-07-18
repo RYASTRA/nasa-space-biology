@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NASA OSDR space-biology studies — newest</title>
+  <link href="{{ base_url }}/"/>
+  <link rel="self" href="{{ base_url }}/feed.xml"/>
+  <id>{{ base_url }}/</id>
+  <updated>{{ updated }}T00:00:00Z</updated>
+{% for s in studies %}
+  <entry>
+    <title>{{ s.overview.title }}</title>
+    <link href="{{ base_url }}/study/{{ s.identity.accession }}.html"/>
+    <id>{{ base_url }}/study/{{ s.identity.accession }}.html</id>
+    <updated>{{ s.overview.release_date }}T00:00:00Z</updated>
+    <summary>{{ s.identity.accession }}{% if s.subject.organisms %} — {{ s.subject.organisms | join(", ") }}{% endif %}</summary>
+  </entry>
+{% endfor %}
+</feed>
