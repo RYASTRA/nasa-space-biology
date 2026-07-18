@@ -69,6 +69,7 @@ def build_site(
     copy_tree(data_dir, site_dir / "data")
     copy_tree(assets_dir, site_dir / "assets")
     _write(site_dir / "sitemap.xml", render_sitemap(env, studies, base_url))
+    shutil.rmtree(site_dir / "study", ignore_errors=True)  # drop pages of removed studies
     for study in studies:
         accession = study["identity"]["accession"]
         _write(site_dir / "study" / f"{accession}.html", render_study(env, study))
