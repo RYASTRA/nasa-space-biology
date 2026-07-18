@@ -164,9 +164,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -218,6 +215,9 @@ __marimo__/
 # Documentation is local-only: the entire docs/ tree (specs, design notes, API references,
 # and every subdirectory) stays out of version control.
 docs/
+
+# Generated site data (regenerated from data/ by `build`); the rest of site/ is committed
+site/data/
 
 # macOS
 .DS_Store
