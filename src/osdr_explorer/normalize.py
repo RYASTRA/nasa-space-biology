@@ -22,16 +22,21 @@ def split_multi(raw: object) -> list[str]:
 
 
 def parse_epoch_date(raw: object) -> str | None:
-    """Convert a Unix-epoch-seconds value (number or numeric string) to an ISO date."""
+    """Convert a Unix-epoch-seconds value (number or numeric string) to an ISO date.
+
+    Returns ``None`` for anything that is not a finite, in-range epoch — non-numeric,
+    empty, NaN, infinite, or outside ``datetime``'s year range — so one malformed
+    release date can never abort an unattended snapshot run.
+    """
     if not isinstance(raw, (int, float, str)):
         return None
     if isinstance(raw, str) and not raw.strip():
         return None
     try:
         seconds = float(raw)
-    except (TypeError, ValueError):
+        return datetime.fromtimestamp(seconds, tz=timezone.utc).date().isoformat()
+    except (ValueError, OverflowError, OSError):
         return None
-    return datetime.fromtimestamp(seconds, tz=timezone.utc).date().isoformat()
 
 
 def osd_num_from_accession(accession: str) -> int:
@@ -66,9 +71,9 @@ def _person_name(person: object) -> str:
     if not isinstance(person, dict):
         return ""
     parts = [
-        str(person.get("First Name", "")).strip(),
-        str(person.get("Middle Initials", "")).strip(),
-        str(person.get("Last Name", "")).strip(),
+        str(person.get("First Name") or "").strip(),
+        str(person.get("Middle Initials") or "").strip(),
+        str(person.get("Last Name") or "").strip(),
     ]
     return " ".join(part for part in parts if part)
 
