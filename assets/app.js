@@ -191,6 +191,10 @@
     if (!state.query) {
       searchMatches = null;
       searchOrder = null;
+      if (state.sort === "relevance") {
+        state.sort = "newest";
+        el.sort.value = "newest";
+      }
       return;
     }
     const hits = index.search(state.query);
@@ -229,6 +233,7 @@
 
   async function init() {
     const res = await fetch("data/studies.json");
+    if (!res.ok) throw new Error(`HTTP ${res.status} loading studies.json`);
     state.studies = await res.json();
     buildIndex();
     wire();
@@ -236,6 +241,6 @@
   }
 
   init().catch((err) => {
-    el.results.innerHTML = `<p class="empty">Failed to load studies: ${err}</p>`;
+    el.results.innerHTML = `<p class="empty">Failed to load studies: ${esc(String(err))}</p>`;
   });
 })();
