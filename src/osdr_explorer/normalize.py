@@ -120,10 +120,14 @@ def normalize_record(raw: dict[str, Any]) -> Study:
     accession = str(raw.get("Accession") or "").strip()
     if not accession or "-" not in accession:
         raise NormalizeError(f"record has no usable Accession: {raw.get('Accession')!r}")
+    try:
+        osd_num = osd_num_from_accession(accession)
+    except ValueError as exc:
+        raise NormalizeError(f"malformed Accession (non-numeric id): {accession!r}") from exc
     return Study(
         identity=Identity(
             accession=accession,
-            osd_num=osd_num_from_accession(accession),
+            osd_num=osd_num,
             identifiers=str(raw.get("Identifiers") or "").strip(),
             links=build_links(accession),
         ),
