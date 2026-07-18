@@ -54,6 +54,14 @@ def run_digest_cmd(*, data_dir: Path, digest_dir: Path) -> int:
     return run_digest(data_dir=data_dir, digest_dir=digest_dir, templates_dir=Path("templates"))
 
 
+def run_all(*, data_dir: Path, site_dir: Path, digest_dir: Path) -> int:
+    """Snapshot the mirror, compute the digest, then build the site. Returns an exit code."""
+    run_snapshot(data_dir=data_dir)
+    run_digest_cmd(data_dir=data_dir, digest_dir=digest_dir)
+    run_build(data_dir=data_dir, site_dir=site_dir)
+    return 0
+
+
 def main(argv: list[str] | None = None) -> int:
     """Parse arguments and dispatch to a subcommand. Returns a process exit code."""
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -69,6 +77,10 @@ def main(argv: list[str] | None = None) -> int:
     )
     dig.add_argument("--data-dir", type=Path, default=Path("data"))
     dig.add_argument("--digest-dir", type=Path, default=Path("digest"))
+    all_p = subparsers.add_parser("all", help="snapshot -> digest -> build (the weekly pipeline).")
+    all_p.add_argument("--data-dir", type=Path, default=Path("data"))
+    all_p.add_argument("--site-dir", type=Path, default=Path("site"))
+    all_p.add_argument("--digest-dir", type=Path, default=Path("digest"))
     args = parser.parse_args(argv)
     if args.command == "snapshot":
         return run_snapshot(data_dir=args.data_dir)
@@ -76,4 +88,6 @@ def main(argv: list[str] | None = None) -> int:
         return run_build(data_dir=args.data_dir, site_dir=args.site_dir)
     if args.command == "digest":
         return run_digest_cmd(data_dir=args.data_dir, digest_dir=args.digest_dir)
+    if args.command == "all":
+        return run_all(data_dir=args.data_dir, site_dir=args.site_dir, digest_dir=args.digest_dir)
     return 1
