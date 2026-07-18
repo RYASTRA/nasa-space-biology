@@ -49,6 +49,11 @@ def render_study(env: Environment, study: dict[str, Any]) -> str:
     return env.get_template("study.html.j2").render(s=study)
 
 
+def render_index(env: Environment, meta: dict[str, Any]) -> str:
+    """Render the explorer index shell (app.js populates it at runtime)."""
+    return env.get_template("index.html.j2").render(meta=meta)
+
+
 def build_site(
     *,
     data_dir: Path,
@@ -59,6 +64,7 @@ def build_site(
 ) -> None:
     """Render the static explorer site from the committed mirror in ``data_dir``."""
     studies = load_studies(data_dir)
+    meta = json.loads((data_dir / "meta.json").read_text(encoding="utf-8"))
     env = make_env(templates_dir)
     copy_tree(data_dir, site_dir / "data")
     copy_tree(assets_dir, site_dir / "assets")
@@ -66,3 +72,4 @@ def build_site(
     for study in studies:
         accession = study["identity"]["accession"]
         _write(site_dir / "study" / f"{accession}.html", render_study(env, study))
+    _write(site_dir / "index.html", render_index(env, meta))
