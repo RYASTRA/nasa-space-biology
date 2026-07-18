@@ -41,8 +41,10 @@
     );
   const anySelected = () => FACETS.some((f) => state.selected[f.key].size > 0) || state.query;
 
-  // Search hook — replaced in Task 5 (MiniSearch). Until then, every study "matches".
+  // Full-text search over title + description via MiniSearch (vendored UMD global).
   let searchMatches = null; // Set<accession> | null (null = no active query)
+  let searchOrder = null; // Map<accession, rank> | null (for relevance sort)
+  let index = null;
 
   function matchesFacets(s, exceptKey) {
     for (const f of FACETS) {
@@ -70,7 +72,12 @@
     else if (state.sort === "oldest") sorted.sort((a, b) => dateKey(a).localeCompare(dateKey(b)));
     else if (state.sort === "accession")
       sorted.sort((a, b) => a.identity.osd_num - b.identity.osd_num);
-    // "relevance" keeps the incoming order (search order); handled in Task 5.
+    else if (state.sort === "relevance" && searchOrder)
+      sorted.sort(
+        (a, b) =>
+          (searchOrder.get(a.identity.accession) ?? 1e9) -
+          (searchOrder.get(b.identity.accession) ?? 1e9),
+      );
     return sorted;
   }
 
@@ -164,10 +171,31 @@
     rerender();
   }
 
-  // Replaced in Task 5. In Task 4 the query never filters.
+  function buildIndex() {
+    index = new MiniSearch({
+      idField: "id",
+      fields: ["title", "description"],
+      searchOptions: { boost: { title: 2 }, prefix: true, fuzzy: 0.2 },
+    });
+    index.addAll(
+      state.studies.map((s) => ({
+        id: s.identity.accession,
+        title: s.overview.title,
+        description: s.overview.description,
+      })),
+    );
+  }
+
   function onSearch() {
     state.query = el.search.value.trim();
-    searchMatches = null;
+    if (!state.query) {
+      searchMatches = null;
+      searchOrder = null;
+      return;
+    }
+    const hits = index.search(state.query);
+    searchMatches = new Set(hits.map((h) => h.id));
+    searchOrder = new Map(hits.map((h, i) => [h.id, i]));
   }
 
   function wire() {
@@ -186,6 +214,10 @@
     });
     el.search.addEventListener("input", () => {
       onSearch();
+      if (state.query && el.sort.value === "newest") {
+        state.sort = "relevance";
+        el.sort.value = "relevance";
+      }
       rerender();
     });
     el.clear.addEventListener("click", clearAll);
@@ -198,6 +230,7 @@
   async function init() {
     const res = await fetch("data/studies.json");
     state.studies = await res.json();
+    buildIndex();
     wire();
     rerender();
   }
