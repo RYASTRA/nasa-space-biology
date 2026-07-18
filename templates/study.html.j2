@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ s.identity.accession }} · {{ s.overview.title }}</title>
+  <link rel="stylesheet" href="../assets/style.css">
+</head>
+<body class="study">
+  <header class="site-header">
+    <a class="home" href="../index.html">← All studies</a>
+  </header>
+  <main class="study-main">
+    <p class="accession">{{ s.identity.accession }}{% if s.identity.identifiers %} · {{ s.identity.identifiers }}{% endif %}{% if s.overview.release_date %} · released {{ s.overview.release_date }}{% endif %}</p>
+    <h1>{{ s.overview.title }}</h1>
+    {% if s.overview.thumbnail %}
+    <img class="thumb" src="{{ s.overview.thumbnail }}" alt="" loading="lazy">
+    {% endif %}
+    {% if s.overview.description %}<p class="desc">{{ s.overview.description }}</p>{% endif %}
+
+    <div class="deep-links">
+      <a class="btn" href="{{ s.identity.links.study }}">View on OSDR ↗</a>
+      <a class="btn" href="{{ s.identity.links.metadata_api }}">Metadata API ↗</a>
+      <a class="btn" href="{{ s.identity.links.files_api }}">Data files API ↗</a>
+    </div>
+
+    <dl class="facts">
+      {% if s.subject.organisms %}<dt>Organism</dt><dd>{% for v in s.subject.organisms %}<span class="chip">{{ v }}</span>{% endfor %}</dd>{% endif %}
+      {% if s.assay.types %}<dt>Assay</dt><dd>{% for v in s.assay.types %}<span class="chip">{{ v }}</span>{% endfor %}</dd>{% endif %}
+      {% if s.factors.types %}<dt>Factor</dt><dd>{% for v in s.factors.types %}<span class="chip">{{ v }}</span>{% endfor %}</dd>{% endif %}
+      {% if s.mission.names or s.mission.flight_programs %}<dt>Mission</dt><dd>{% for v in s.mission.names %}<span class="chip">{{ v }}</span>{% endfor %}{% for v in s.mission.flight_programs %}<span class="chip">{{ v }}</span>{% endfor %}</dd>{% endif %}
+      {% if s.subject.material_types %}<dt>Material</dt><dd>{% for v in s.subject.material_types %}<span class="chip">{{ v }}</span>{% endfor %}</dd>{% endif %}
+      {% if s.attribution.people %}<dt>People</dt><dd>{{ s.attribution.people | join(", ") }}</dd>{% endif %}
+      {% if s.attribution.publication_title %}<dt>Publication</dt><dd>{{ s.attribution.publication_title }}</dd>{% endif %}
+      {% if s.attribution.managing_center %}<dt>Center</dt><dd>{{ s.attribution.managing_center }}</dd>{% endif %}
+    </dl>
+  </main>
+</body>
+</html>

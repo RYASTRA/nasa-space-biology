@@ -44,6 +44,11 @@ def render_sitemap(env: Environment, studies: list[dict[str, Any]], base_url: st
     return template.render(studies=studies, base_url=base_url.rstrip("/"))
 
 
+def render_study(env: Environment, study: dict[str, Any]) -> str:
+    """Render one study's standalone page."""
+    return env.get_template("study.html.j2").render(s=study)
+
+
 def build_site(
     *,
     data_dir: Path,
@@ -58,3 +63,6 @@ def build_site(
     copy_tree(data_dir, site_dir / "data")
     copy_tree(assets_dir, site_dir / "assets")
     _write(site_dir / "sitemap.xml", render_sitemap(env, studies, base_url))
+    for study in studies:
+        accession = study["identity"]["accession"]
+        _write(site_dir / "study" / f"{accession}.html", render_study(env, study))
