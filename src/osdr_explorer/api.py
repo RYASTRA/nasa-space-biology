@@ -60,8 +60,11 @@ class OSDRClient:
         while True:
             page = self.get_page(offset)
             hits = page.get("hits", {})
-            total = int(hits.get("total", 0))
-            sources = [hit["_source"] for hit in hits.get("hits", [])]
+            total_raw = hits.get("total")
+            if not isinstance(total_raw, (int, float)) or isinstance(total_raw, bool):
+                raise RuntimeError(f"OSDR response has no usable hits.total: {total_raw!r}")
+            total = int(total_raw)
+            sources = [hit["_source"] for hit in hits.get("hits", []) if "_source" in hit]
             records.extend(sources)
             offset += self._page_size
             if not sources or offset >= total:

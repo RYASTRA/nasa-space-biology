@@ -38,7 +38,7 @@ def build_facets(studies: list[Study]) -> dict[str, list[FacetValue]]:
     }
     for study in studies:
         for name, values in _facet_values(study).items():
-            counters[name].update(values)
+            counters[name].update(set(values))
     return {
         name: [
             FacetValue(value=value, count=count)
@@ -79,7 +79,7 @@ def read_previous_count(data_dir: Path) -> int | None:
     try:
         data: dict[str, Any] = json.loads(meta_path.read_text(encoding="utf-8"))
         return int(data["study_count"])
-    except (ValueError, KeyError, OSError):
+    except (ValueError, TypeError, KeyError, OSError):
         return None
 
 

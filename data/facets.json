@@ -700,39 +700,35 @@
   "assay_types": [
     {
       "value": "RNA Sequencing (RNA-Seq)",
-      "count": 233
+      "count": 229
     },
     {
       "value": "DNA microarray",
-      "count": 156
+      "count": 155
     },
     {
       "value": "mass spectrometry",
-      "count": 55
+      "count": 47
     },
     {
       "value": "nucleotide sequencing",
-      "count": 41
+      "count": 38
     },
     {
       "value": "single-cell RNA sequencing",
-      "count": 31
-    },
-    {
-      "value": "16S",
       "count": 29
     },
     {
+      "value": "16S",
+      "count": 28
+    },
+    {
       "value": "Whole-Genome Shotgun Sequencing",
-      "count": 24
+      "count": 22
     },
     {
       "value": "miRNA Sequencing",
       "count": 18
-    },
-    {
-      "value": "Western Blot",
-      "count": 14
     },
     {
       "value": "Whole Genome Bisulfite Sequencing",
@@ -743,19 +739,11 @@
       "count": 11
     },
     {
-      "value": "real time PCR",
-      "count": 9
-    },
-    {
       "value": "ITS",
       "count": 7
     },
     {
-      "value": "Microscopy",
-      "count": 6
-    },
-    {
-      "value": "long read low-biomass DNA Sequencing",
+      "value": "real time PCR",
       "count": 6
     },
     {
@@ -775,7 +763,7 @@
       "count": 5
     },
     {
-      "value": "Ribo-seq (Ribosome profiling)",
+      "value": "Microscopy",
       "count": 4
     },
     {
@@ -787,11 +775,7 @@
       "count": 4
     },
     {
-      "value": "DIP-seq",
-      "count": 3
-    },
-    {
-      "value": "Multiplex",
+      "value": "Ribo-seq (Ribosome profiling)",
       "count": 3
     },
     {
@@ -804,6 +788,10 @@
     },
     {
       "value": "Bisulfite sequencing",
+      "count": 2
+    },
+    {
+      "value": "DIP-seq",
       "count": 2
     },
     {
@@ -831,7 +819,11 @@
       "count": 2
     },
     {
-      "value": "Ultrasonography",
+      "value": "Western Blot",
+      "count": 2
+    },
+    {
+      "value": "long read low-biomass DNA Sequencing",
       "count": 2
     },
     {
@@ -883,6 +875,10 @@
       "count": 1
     },
     {
+      "value": "Multiplex",
+      "count": 1
+    },
+    {
       "value": "Nucleotide Sequencing",
       "count": 1
     },
@@ -904,6 +900,10 @@
     },
     {
       "value": "Three Chamber Social Isolation",
+      "count": 1
+    },
+    {
+      "value": "Ultrasonography",
       "count": 1
     },
     {
