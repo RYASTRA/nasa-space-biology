@@ -10,7 +10,8 @@ GitHub Actions job snapshots OSDR study metadata into committed JSON; GitHub Pag
 serves a client-side faceted search over it. The OSDR API is **keyless**, making
 this the purest static build in the fleet — no servers, no secrets, no backend.
 
-> **Status: 🚧 pre-development (design phase) — founded 2026-07-13.**
+> **Status: ✅ live — 574 studies, refreshed weekly.**
+> **Quick look:** <https://ryastra.github.io/nasa-space-biology/>
 
 ## The unmet need
 
@@ -20,15 +21,16 @@ native interface is tedious. NASA funds OSDR to **maximize data reuse**; a human
 discovery layer directly serves that mandate, and the grad students doing the
 reusing.
 
-## What it will do
+## What it does
 
-1. **Periodic snapshot** — an Actions job pulls OSDR study metadata (keyless API)
-   into committed JSON.
+1. **Periodic snapshot** — a weekly Actions job pulls OSDR study metadata (keyless
+   API) into committed JSON.
 2. **Faceted static explorer** — GitHub Pages site: filter by organism, assay
    type, exposure factor (microgravity, radiation, analogs), and mission/vehicle;
    full-text search across titles and descriptions; each study page deep-links to
    its metadata and files via the OSDR API.
-3. **Later hook** — a new-study digest (watcher output) from snapshot diffs.
+3. **New-study watcher** — a weekly diff of the snapshot opens a GitHub Issue and
+   updates an Atom feed of new & updated studies.
 
 ## Audiences
 

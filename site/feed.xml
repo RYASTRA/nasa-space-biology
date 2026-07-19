@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>NASA OSDR space-biology studies — newest</title>
+  <link href="https://ryastra.github.io/nasa-space-biology/"/>
+  <link rel="self" href="https://ryastra.github.io/nasa-space-biology/feed.xml"/>
+  <id>https://ryastra.github.io/nasa-space-biology/</id>
+  <updated>2026-06-09T00:00:00Z</updated>
+  <entry>
+    <title>Stress and light spectral quality influence the transcriptome of a tomato crop on the International Space Station</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-767.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-767.html</id>
+    <updated>2026-06-09T00:00:00Z</updated>
+    <summary>OSD-767 — Solanum lycopersicum</summary>
+  </entry>
+  <entry>
+    <title>The microbial communities of a tomato crop grown in Veggie under different lighting regimes on the International Space Station</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-766.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-766.html</id>
+    <updated>2026-05-21T00:00:00Z</updated>
+    <summary>OSD-766 — Microbiota</summary>
+  </entry>
+  <entry>
+    <title>Exposed Root On Orbit Test System (XROOTS), an aeroponic and hydroponic plant growth system technical demonstration on the International Space Station (ISS)</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-773.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-773.html</id>
+    <updated>2026-05-11T00:00:00Z</updated>
+    <summary>OSD-773 — Microbiota</summary>
+  </entry>
+  <entry>
+    <title>Beneficial microbes mitigate molecular stress responses and accelerate developmental pathways in host animals during spaceflight</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-961.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-961.html</id>
+    <updated>2026-04-28T00:00:00Z</updated>
+    <summary>OSD-961 — Euprymna scolopes</summary>
+  </entry>
+  <entry>
+    <title>Evidence for increased thermogenesis in female C57BL/6J mice housed aboard the international space station - white adipose tissue (WAT) data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-970.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-970.html</id>
+    <updated>2026-03-03T00:00:00Z</updated>
+    <summary>OSD-970 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Evidence for increased thermogenesis in female C57BL/6J mice housed aboard the international space station - brown adipose tissue (BAT) data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-969.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-969.html</id>
+    <updated>2026-03-03T00:00:00Z</updated>
+    <summary>OSD-969 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Spleen data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-910.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-910.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-910 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Pancreas data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-909.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-909.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-909 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Heart data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-908.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-908.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-908 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Thymus data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-907.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-907.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-907 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - brown adipose tissue (BAT) data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-906.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-906.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-906 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Liver data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-905.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-905.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-905 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Subcutaneous Adipose Tissue (SCAT) data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-904.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-904.html</id>
+    <updated>2026-02-13T00:00:00Z</updated>
+    <summary>OSD-904 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Brain data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-916.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-916.html</id>
+    <updated>2026-02-12T00:00:00Z</updated>
+    <summary>OSD-916 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Lung data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-915.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-915.html</id>
+    <updated>2026-02-12T00:00:00Z</updated>
+    <summary>OSD-915 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Diaphragm data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-914.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-914.html</id>
+    <updated>2026-02-12T00:00:00Z</updated>
+    <summary>OSD-914 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Kidney data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-913.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-913.html</id>
+    <updated>2026-02-12T00:00:00Z</updated>
+    <summary>OSD-913 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Mesenteric Adipose Tissue (MAT) data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-912.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-912.html</id>
+    <updated>2026-02-12T00:00:00Z</updated>
+    <summary>OSD-912 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>MicroRNAs shape mouse age-independent tissue adaptation to spaceflight via ECM and developmental pathways - Gonadal Adipose Tissue (GAT) data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-911.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-911.html</id>
+    <updated>2026-02-12T00:00:00Z</updated>
+    <summary>OSD-911 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Skeletal stem cells data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-933.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-933.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-933 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Non-myeloid hippocampus data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-932.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-932.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-932 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Non-myeloid forebrain data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-931.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-931.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-931 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Non-myeloid cerebellum data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-930.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-930.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-930 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Myeloid hippocampus data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-929.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-929.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-929 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Myeloid forebrain data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-928.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-928.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-928 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Myeloid cerebellum data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-927.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-927.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-927 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Bone marrow data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-926.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-926.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-926 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - limb muscle data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-924.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-924.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-924 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Large intestine data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-923.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-923.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-923 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Heart ventricles data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-922.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-922.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-922 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Heart atria data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-921.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-921.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-921 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Eye data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-920.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-920.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-920 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Bone data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-919.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-919.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-919 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Spaceflight induces systemic effects on extracellular matrix and immune system in different age-stages - Blood data</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-918.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-918.html</id>
+    <updated>2026-02-04T00:00:00Z</updated>
+    <summary>OSD-918 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>JPL Mars Exploration Program Interlab Cleanroom Metagenomics</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-944.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-944.html</id>
+    <updated>2026-02-03T00:00:00Z</updated>
+    <summary>OSD-944 — Microbiota</summary>
+  </entry>
+  <entry>
+    <title>Gravitational and mechanical forces drive mitochondrial translation - C. elegans datasets</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-956.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-956.html</id>
+    <updated>2026-01-26T00:00:00Z</updated>
+    <summary>OSD-956 — Caenorhabditis elegans</summary>
+  </entry>
+  <entry>
+    <title>Gravitational and mechanical forces drive mitochondrial translation - mouse datasets</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-955.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-955.html</id>
+    <updated>2026-01-26T00:00:00Z</updated>
+    <summary>OSD-955 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Gravitational and mechanical forces drive mitochondrial translation- human HEK293 cell datasets</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-936.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-936.html</id>
+    <updated>2026-01-26T00:00:00Z</updated>
+    <summary>OSD-936 — Homo sapiens</summary>
+  </entry>
+  <entry>
+    <title>Planetary Protection Low Biomass Nanopore Pilot Study</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-890.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-890.html</id>
+    <updated>2026-01-07T00:00:00Z</updated>
+    <summary>OSD-890 — Not Applicable, Microbiota</summary>
+  </entry>
+  <entry>
+    <title>Space radiation induces distinct senescent phenotypes: Implications for space travel [bulk RNA-Seq]</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-993.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-993.html</id>
+    <updated>2025-12-09T00:00:00Z</updated>
+    <summary>OSD-993 — Homo sapiens</summary>
+  </entry>
+  <entry>
+    <title>Space radiation induces distinct senescent phenotypes: Implications for space travel [scRNA-Seq]</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-992.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-992.html</id>
+    <updated>2025-12-09T00:00:00Z</updated>
+    <summary>OSD-992 — Homo sapiens</summary>
+  </entry>
+  <entry>
+    <title>Sex‐Specific Changes in Brain Organoids from Acute Simulated Galactic Cosmic Radiation are Rescued by Targeted ECM Pathway Stimulation (Opto-FGFR-mediated rescue under simGCRsim exposure)</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-1000.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-1000.html</id>
+    <updated>2025-12-08T00:00:00Z</updated>
+    <summary>OSD-1000 — Homo sapiens</summary>
+  </entry>
+  <entry>
+    <title>Sex‐Specific Changes in Brain Organoids from Acute Simulated Galactic Cosmic Radiation are Rescued by Targeted ECM Pathway Stimulation (sex-specific response experiment)</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-999.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-999.html</id>
+    <updated>2025-12-08T00:00:00Z</updated>
+    <summary>OSD-999 — Homo sapiens</summary>
+  </entry>
+  <entry>
+    <title>Transcriptional profiling of cecum from mice flown on the RR-10 mission</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-899.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-899.html</id>
+    <updated>2025-12-05T00:00:00Z</updated>
+    <summary>OSD-899 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Rotifers in Space: Transcriptomic Response of the bdelloid rotifer Adineta vaga aboard the International Space Station.</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-824.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-824.html</id>
+    <updated>2025-11-25T00:00:00Z</updated>
+    <summary>OSD-824 — Adineta vaga</summary>
+  </entry>
+  <entry>
+    <title>Transcriptional profiling of lungs from mice flown on the RR-10 mission</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-900.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-900.html</id>
+    <updated>2025-11-05T00:00:00Z</updated>
+    <summary>OSD-900 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>PH-04 Chile Peppers in Space</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-772.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-772.html</id>
+    <updated>2025-09-09T00:00:00Z</updated>
+    <summary>OSD-772 — Microbiota</summary>
+  </entry>
+  <entry>
+    <title>Expression data from cultured mouse spermatogonia cryopreserved on the International Space Station (ISS) or on Earth</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-901.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-901.html</id>
+    <updated>2025-08-15T00:00:00Z</updated>
+    <summary>OSD-901 — Mus musculus</summary>
+  </entry>
+  <entry>
+    <title>Microgravity accelerates skeletal muscle degeneration: Functional and transcriptomic insights from an ISS muscle lab-on-chip model</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-937.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-937.html</id>
+    <updated>2025-08-13T00:00:00Z</updated>
+    <summary>OSD-937 — Homo sapiens</summary>
+  </entry>
+  <entry>
+    <title>Long non‐coding RNAs Kcnq1ot1 and Lncpint are involved in skeletal muscle atrophy induced by the space exposome</title>
+    <link href="https://ryastra.github.io/nasa-space-biology/study/OSD-935.html"/>
+    <id>https://ryastra.github.io/nasa-space-biology/study/OSD-935.html</id>
+    <updated>2025-08-13T00:00:00Z</updated>
+    <summary>OSD-935 — Mus musculus</summary>
+  </entry>
+</feed>
