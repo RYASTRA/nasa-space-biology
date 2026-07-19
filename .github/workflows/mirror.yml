@@ -2,6 +2,11 @@ name: Mirror to GitLab
 
 on: [push, delete]
 
+# Least privilege: the mirror only reads this repo (checkout) and pushes to GitLab
+# via GITLAB_TOKEN, so the GITHUB_TOKEN needs no write scopes. (CodeQL CWE-275)
+permissions:
+  contents: read
+
 jobs:
   mirror:
     runs-on: ubuntu-latest
