@@ -50,11 +50,12 @@ def test_contract_envelope_ordering_and_undated_exclusion() -> None:
     assert len(doc["items"]) <= 5
 
 
-def test_long_titles_are_truncated_and_lists_capped() -> None:
+def test_long_titles_are_truncated_with_ellipsis_and_lists_capped() -> None:
     studies = [_study(n, f"2025-01-{n:02d}", title="T" * 300) for n in range(1, 9)]
     doc = status.build({"generated_at": "2026-07-18T02:49:00Z", "study_count": 8}, studies)
     assert len(doc["items"]) == 5
     assert all(len(i["text"]) <= 140 for i in doc["items"])
+    assert all(i["text"].endswith("…") for i in doc["items"])
 
 
 def test_status_json_is_valid_json_when_dumped(tmp_path: Path) -> None:

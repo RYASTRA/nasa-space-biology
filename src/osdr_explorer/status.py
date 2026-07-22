@@ -52,9 +52,14 @@ def build(meta: dict[str, Any], studies: list[dict[str, Any]]) -> dict[str, Any]
         "items": [
             {
                 "when_utc": s["overview"]["release_date"],
-                "text": f"{s['identity']['accession']} — {s['overview']['title']}"[:140],
+                "text": _clip(f"{s['identity']['accession']} — {s['overview']['title']}"),
                 "url": s["identity"]["links"]["study"],
             }
             for s in newest
         ],
     }
+
+
+def _clip(text: str, limit: int = 140) -> str:
+    """Truncate to the contract's item bound with an ellipsis, never mid-slice."""
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
