@@ -92,3 +92,7 @@ def build_site(
         _write(site_dir / "study" / f"{accession}.html", render_study(env, study))
     _write(site_dir / "index.html", render_index(env, meta))
     _write(site_dir / "feed.xml", render_feed(env, studies, base_url))
+    # imported here, not at module top: status reuses this module's feed ordering
+    from . import status  # pylint: disable=import-outside-toplevel,cyclic-import
+
+    _write(site_dir / "status.json", json.dumps(status.build(meta, studies), indent=1))
